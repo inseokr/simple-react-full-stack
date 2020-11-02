@@ -32,11 +32,11 @@ module.exports = {
     extensions: ['*', '.js', '.jsx']
   },
   devServer: {
-    port: 3000,
+    port: 9000,
     open: true,
     historyApiFallback: true,
     proxy: {
-      '/': 'http://localhost:5000'
+      '/': 'https://localhost:5000'
     }
   },
   plugins: [
