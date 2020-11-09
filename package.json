@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "client-backup": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "client": "react-scripts start",
-    "start": "concurrently \"npm run build && node src/server/index.js\" \"npm run client-backup\""
+    "start": "concurrently \"npm run build && node src/server/index.js\" \"npm run client\""
   },
   "author": "Sandeep Raveesh",
   "license": "ISC",
